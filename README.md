@@ -3,7 +3,8 @@ React and tailwind component that displays password input and can be toggled as 
 
 # Usage
 
--  <PasswordInputToggle
+```
+<PasswordInputToggle
         ref={pwdRef}
         inputValue={formData.shop_api_password}
         inputLabel="Api Secret (optional)"
@@ -15,3 +16,4 @@ React and tailwind component that displays password input and can be toggled as 
         you in the near future.`,
         }}
       />
+```
